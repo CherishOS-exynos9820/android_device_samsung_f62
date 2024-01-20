@@ -57,6 +57,7 @@
          from the HAL in the future. -->
     <array name="config_sfps_sensor_props" translatable="false">
         <item>@array/config_sfps_sensor_props_0</item>
+        <item>@array/config_sfps_sensor_props_1</item>
     </array>
 
     <array name="config_sfps_sensor_props_0" translatable="false">
@@ -66,6 +67,13 @@
         <item>350</item> <!--item>sensorRadius</item-->
     </array>
 
+    <array name="config_sfps_sensor_props_1" translatable="false">
+        <item>local: 4633128672291735937</item> <!--item>displayId</item-->
+        <item>1080</item> <!--item>sensorLocationx</item-->
+        <item>800</item> <!--item>sensorLocationY</item-->
+        <item>350</item> <!--item>sensorRadius</item-->
+   </array>  
+    
     <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
